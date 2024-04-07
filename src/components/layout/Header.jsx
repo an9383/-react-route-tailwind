@@ -1,5 +1,5 @@
 import { Link, useLocation } from 'react-router-dom'
-import Button, { GhostButton } from '../button/Button'
+import Button from '../button/Button'
 
 function Header() {
     const location = useLocation()
@@ -28,5 +28,11 @@ function Header() {
         </header>
     )
 }
+
+const Gnb = styled.nav`
+    ul {
+        ${tw`flex gap-6`}
+    }
+`
 
 export default Header
