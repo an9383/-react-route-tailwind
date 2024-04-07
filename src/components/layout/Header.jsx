@@ -5,10 +5,10 @@ function Header() {
     const location = useLocation()
 
     return (
-        <header>
-            <h1>logo</h1>
+        <header className="flex justify-between items-center border-b-2 border-gray-600 bg-gray-100 p-5">
+            <h1 className="text-3xl font-bold">logo</h1>
             <nav>
-                <ul>
+                <ul className="flex gap-6">
                     <li className={location.pathname === '/' ? 'active' : ''}>
                         <Link to="/">Home</Link>
                     </li>
@@ -24,7 +24,6 @@ function Header() {
             <div>
                 <Button default>마이페이지</Button>
                 <Button>마이페이지</Button>
-                <GhostButton>로그인</GhostButton>
             </div>
         </header>
     )
