@@ -4,15 +4,18 @@ import GlobalStyle from './theme/globalStyles'
 import { ThemeProvider } from 'styled-components'
 import theme from './theme/theme'
 import './assets/style/index.css'
+import chakraTheme from './theme/chakraTheme'
 
 function App() {
     return (
         <>
-            <ThemeProvider theme={theme}>
-                <Reset />
-                <GlobalStyle />
-                <Routers />
-            </ThemeProvider>
+            <chakraTheme theme={chakraTheme}>
+                <ThemeProvider theme={theme}>
+                    <Reset />
+                    <GlobalStyle />
+                    <Routers />
+                </ThemeProvider>
+            </chakraTheme>
         </>
     )
 }
