@@ -7,9 +7,8 @@ const GlobalStyle = createGlobalStyle`
     body {
         font-size: 16px;
         line-height: 1.5;
-        font-family: "Montserrat", 'Noto Sans KR', 'Malgun Gothic', '맑은 고딕', sans-serif;
+        font-family: 'Noto Sans KR', 'Malgun Gothic', '맑은 고딕', sans-serif;
         color: #222;
-        letter-spacing: '-0.5px';
     }
 
     /* desktop */
