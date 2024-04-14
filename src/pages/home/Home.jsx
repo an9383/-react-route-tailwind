@@ -1,5 +1,3 @@
-/* eslint-disable*/
-
 import Logo from '../../components/common/Logo'
 import { Heading, Button, Stack, HStack, VStack } from '@chakra-ui/react'
 

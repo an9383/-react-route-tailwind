@@ -1,5 +1,3 @@
-/* eslint-disable*/
-
 import { Link, useLocation } from 'react-router-dom'
 import Button, { GhostButton } from '../button/Button'
 import tw from 'twin.macro'

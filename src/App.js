@@ -1,5 +1,3 @@
-/* eslint-disable*/
-
 import Routers from './components/Routers'
 import { Reset } from 'styled-reset'
 import GlobalStyle from './theme/globalStyles'
