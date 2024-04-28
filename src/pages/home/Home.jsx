@@ -4,12 +4,12 @@ import { Heading, Button, Stack, HStack, VStack } from '@chakra-ui/react'
 function Home() {
     return (
         <div>
-            <Heading as={'h3'} fontSize={30}>
+            <Heading as={'h3'} fontSize={30} justifyContent={'center'}>
                 홈 화면
             </Heading>
             <VStack>
                 <Button variant={'icon'} colorScheme="blue">
-                    dddd
+                    DDDD
                 </Button>
                 <Button colorScheme="blue" border={'1px solid #000'} borderRadius={0}>
                     Button
