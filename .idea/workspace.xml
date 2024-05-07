@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="65f67469-8de9-4ffd-9cf2-9dcca1960874" name="Changes" comment="" />
+    <list default="true" id="65f67469-8de9-4ffd-9cf2-9dcca1960874" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,9 +32,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/WorkSpace/REACT.JS/apexcharts-bundle/samples/react",
+    "last_opened_file_path": "D:/WorkSpace/Academy/react_guro/react-route-tailwind",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
@@ -45,6 +52,7 @@
       <workItem from="1713154000086" duration="93000" />
       <workItem from="1714031811530" duration="158000" />
       <workItem from="1714107586572" duration="27000" />
+      <workItem from="1715045593585" duration="497000" />
     </task>
     <servers />
   </component>
